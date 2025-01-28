@@ -60,6 +60,7 @@ img{
 .contact-Container{
     display: flex;
     justify-content: space-between;
+   
 }
 .email{
     display: inline-block;
@@ -68,6 +69,11 @@ img{
 .insta{
     display: inline-block;
     padding-bottom: 10px;   
+}
+.link{
+    text-decoration: none;
+    list-style: none;
+    color: black;
 }
 .project img{
     width: 100px;
@@ -80,4 +86,17 @@ img{
     display: flex;
     justify-content: center;
 
+}
+.hover:hover{
+
+        color: hwb(126 4% 93% / 0.988);
+        background-color: #fff;
+        padding:10px;
+        border-radius: 20px;
+        box-shadow: 10px 10px #444149;
+        transition-delay: 1.5m;
+}
+.contacthover{
+    height: 10px;
+    padding-top: 10px;
 }
