@@ -1,0 +1,83 @@
+
+.{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    header{
+    background-color: rgb(29, 5, 5);
+    margin: 10px 10px 10px;
+    color: azure;
+    padding: 10px ;
+    
+}
+header h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+header nav ul{
+    list-style: none;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+header nav ul a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 30px;
+}
+.container{
+    width: 80%;
+    padding: 20px;
+    margin: auto;
+}
+section{
+    padding: 40px;
+}
+section h1{
+    text-align: center;
+    
+
+}
+section p{
+    text-align: center;
+
+}
+.project p{
+    text-align: center;
+}
+
+img{
+    border-radius: 10px;
+    display: inline-block;
+    width: 30px;
+}
+.PhNum{
+    display: inline-block;
+    padding-bottom: 10px;
+}
+.contact-Container{
+    display: flex;
+    justify-content: space-between;
+}
+.email{
+    display: inline-block;
+    padding-bottom: 10px;
+}
+.insta{
+    display: inline-block;
+    padding-bottom: 10px;   
+}
+.project img{
+    width: 100px;
+}
+.screen{
+    width: 500px;
+    
+}
+.project-image{
+    display: flex;
+    justify-content: center;
+
+}
